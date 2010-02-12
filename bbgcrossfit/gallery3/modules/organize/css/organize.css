@@ -1,0 +1,148 @@
+
+/*******************************************************************
+ * Dialog wide styles
+ */
+#gOrganize {
+  overflow: hidden;
+}
+
+#gOrganize #bd {
+  height: 100%;
+}
+
+#gOrganize .yui-u {
+  width: 75%;
+}
+
+#gOrganize .yui-gf .first {
+  width: 25%;
+}
+
+#gMessage {
+  margin-bottom: .4em;
+  width: 75%;
+  white-space: nowrap;
+}
+
+#gOrganizeDetail {
+  height: 100%;
+}
+
+#gMessage .gInfo {
+  font-weight: bold;
+  padding-left: 2em;
+}
+
+/*******************************************************************
+ * Album Tree styles
+ */
+#gOrganizeTreeContainer {
+  height: 100%;
+  overflow: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#gOrganizeAlbumTree .selected {
+  background-color: #cfdeff;
+  border-bottom: 1px solid #999;
+  margin-right: 0px;
+}
+
+#gOrganizeAlbumTree ul li {
+  padding-left: 1.2em;
+}
+
+.gOrganizeAlbum span {
+  cursor: pointer;
+}
+
+.gOrganizeAlbumText {
+  cursor: pointer;
+  width: auto;
+  margin: 2px 0px 1px 2px;
+  display: block;
+}
+
+.gOrganizeAlbumText:hover {
+  background: #eee;
+}
+
+/*******************************************************************
+ * Album panel styles
+ */
+#gOrganizeMicroThumbPanel {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #cfdeff;
+  border: 1px solid #999;
+  border-top: none !important;
+  border-left: none !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#gOrganizeMicroThumbGrid {
+  padding: 1em;
+}
+
+.gOrganizeMicroThumbGridCell {
+  float: left;
+  font-size: 0.8em;
+  padding: .5em !important;
+  border-left: 1px hidden #13A;
+  border-right: 1px hidden #13A;
+  margin: 4px;
+}
+
+.gOrganizeMicroThumb {
+  display: block;
+  height: 9em;
+  text-align: center;
+  width: 9em;
+}
+
+.gOrganizeMicroThumbGridCell.ui-selecting,
+.gOrganizeMicroThumbGridCell.ui-selected {
+  margin: 2px;
+  border: 2px solid #13A;
+}
+
+.ui-selectable-helper {
+  z-index: 2000 !important;
+  border: 1px dashed #00F;
+  opacity: 0.25;
+  background: #13A;
+}
+
+.gThumbnail {
+  padding: .5em;
+}
+
+#gOrganizeMicroThumbGrid .gAlbum {
+  background-color: #e8e8e8;
+}
+
+.gOrganizeMicroThumbGridCell:hover {
+  margin: 2px;
+  border: 2px solid #13A;
+}
+
+/****************************************************************
+ * Controls styles
+ */
+#gOrganizeControls {
+  padding-left: 8px;
+  background-color: #13A;
+  color: #ccc;
+  width: 100% !important;
+}
+
+#gOrganizeControls select {
+  display: inline;
+}
+
+#gOrganizeClose {
+  float: right;
+  margin-right: 12px;
+}
